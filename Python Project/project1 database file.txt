@@ -1,0 +1,22 @@
+Database design(SQLite):
+	
+	Table	:   Accounts
+			>Account NO.-integer,primary key,autoincrement
+			>Name-text
+			>Password-text
+			>Mobile-text
+			>Email-text
+			>Balance-float/real
+			>Account Open Date-text
+			>Account Type-text
+			>
+
+	Table	:   Transaction
+			>Account-integer
+			>Tran Date-text
+			>Tran Type-text
+			>Amount float
+			>Updated Bal-float
+			>
+
+	
